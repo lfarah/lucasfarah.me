@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+    <title>Lucas Farah - iOS Dev</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Everything about me and what I've been working on">
+    <meta name="author" content="Lucas Farah">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    
+    <!-- github calendar css -->
+    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css"
+/>
+    <!-- github acitivity css -->
+    <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+<body>
+    
+
+    <!-- ******HEADER****** --> 
+    <header class="header">
+        <div class="container">                       
+            <img class="profile-image img-responsive pull-left" src="assets/images/profile.png" alt="James Lee" />
+            <div class="profile-content pull-left">
+                <h1 class="name">Lucas Farah</h1>
+                <h2 class="desc">iOS Developer</h2>   
+                <ul class="social list-inline">
+                    <li><a href="https://github.com/lfarah" target="_blank"><i class="fa fa-github-alt"></i></a></li>                   
+                    <li><a href="https://twitter.com/7farah7" target="_blank"><i class="fa fa-twitter"></i></a></li>                   
+                    <li><a href="https://www.linkedin.com/in/lucasfarah" target="_blank"><i class="fa fa-linkedin"></i></a></li>                   
+                </ul> 
+            </div><!--//profile-->
+            <a class="btn btn-cta-primary pull-right" href="mailto:hi@lucasfarah.me" target="_top"><i class="fa fa-paper-plane"></i> Contact Me</a>              
+        </div><!--//container-->
+    </header><!--//header-->
+    
+    <nav>
+        <ul>
+            <li><a class= "active" href="home.html">Home</a></li>
+            <li><a href="http://blog.lucasfarah.me">Blog</a></li>
+            <li><a href="http://lucasfarah.me/br">Versão em Português</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-md-8 col-sm-12 col-xs-12">
+                <section class="about section">
+                    <div class="section-inner">
+                        <h2 class="heading">About me</h2>
+                        <div class="content">
+                            <p>Lucas is a 19 year-old iOS developer from Brazil. He is currently doing freelancing and working at a startup in San Francisco. </p>
+                            </p>Lucas actively contributes to several open source projects and attends hackathons, on which he won prizes from companies like IBM, NFL, ESPN, MasterCard and much more.</p>    
+                                  
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+    
+               <section class="latest section">
+                    <div class="section-inner">
+                        <h2 class="heading">Open Source</h2>
+                        <div class="content">    
+                            <div class="item featured text-center">
+                                <h3 class="title"><a>Awesome iOS</a></h3>
+                                <p class="summary">A curated list of awesome iOS frameworks, libraries, tutorials, Xcode plugins, components and much more.</p>
+                                <div class="featured-image">
+                                    <a href="http://github.com/vsouza/awesome-ios" target="_blank">
+                                    <img class="img-responsive project-image" src="assets/images/projects/project-featured.png" alt="project name" />
+                                    </a>
+                                    <div class="ribbon">
+                                        <div class="text">16K stars ⭐️</div>
+                                        </div>
+                                    </div>
+                                    
+                                <div class="desc text-left">                                    
+                                    <p>Awesome iOS is a list on Github with more than 1500 open source libs that helps more than 3K visitors every single day.</p>
+                                    <p>Organized in 124 categories, Awesome iOS helps developers to find libraries for their projects, from anything to custom buttons to testing frameworks.</p>
+                                </div><!--//desc-->         
+                                <a class="btn btn-cta-secondary" href="http://github.com/vsouza/awesome-ios" target="_blank"><i class="fa fa-external-link"></i>Open</a>                 
+                            </div><!--//item-->
+                            <hr class="divider" />
+                                                 <div id="github-graph" class="github-graph"></div><!--//github-graph-->      
+
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://github.com/awesome-labs/LFTimePicker" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/projects/project-1.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="https://github.com/awesome-labs/LFTimePicker" target="_blank">LFTimePicker</a></h3>
+                                    <p>Custom Time Picker ViewController with Selection of start and end times, written in Swift</p>
+                                    <p><a class="more-link" href="https://github.com/awesome-labs/LFTimePicker" target="_blank"><i class="fa fa-external-link"></i> Open on Github</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12">
+                                <img class="img-responsive project-image" src="assets/images/projects/project-2.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a>LFLoginController</a></h3>
+                                    <p>LFLoginController is a customizable login screen, featuring Login, Sign Up, Forgot Password, Email Autocomplete and 1Password</p>
+
+                                    <p><a class="more-link" href="https://github.com/awesome-labs/LFLoginController" target="_blank"><i class="fa fa-external-link"></i> Open on Github</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://github.com/lucoceano/Pager" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/projects/project-3.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="https://github.com/lucoceano/Pager" target="_blank">Pager</a></h3>
+                                    <p>Pager is the simplest and best way to implement sliding view controllers.</p>
+                                    <p><a class="more-link" href="https://github.com/lucoceano/Pager" target="_blank"><i class="fa fa-external-link"></i> Open on Github</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->                            
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                
+                <section class="hackathons section">
+                    <div class="section-inner">
+                        <h2 class="heading">Hackathons</h2>
+                        <div class="content">
+                        <p class="summary">I'm really passionate about hackathons and all the energy involved in building a team and a product in 24 hours. Hackathons are a really good way to learn new technology and work with new people. </p>
+                        </p>I've won a total of 16 prizes in hackathons, from companies like IBM, NFL, ESPN and NBC. </p>
+
+                            <div class="item">
+                                <h3 class="title"></a>🏆 First place at NFL Hackathon</a></h3>
+                                </p>$10.000 + visit to NFL Campus in Los Angeles </p>
+
+                            </div><!--//item-->  
+                            <div class="item">
+                                <h3 class="te"></a>🏆 First place at Girls in Tech ESPN Superbowl Hackathon</a></h3>
+                                </p>Visit ESPN Campus in Bristol - CN </p>
+                            </div><!--//item-->
+                             <div class="item">
+                                <h3 class="title"></a>🏆 First place at IBM Hack the Weather Hackathon Finals in Las Vegas</a></h3>
+                                </p>$5.000 + trip to Las Vegas </p>
+
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"></a>🏆 Third place at 99 Jobs Hackathon</a></h3>
+                                </p>$1.500 </p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"></a>💡 NBC Content Finds Consumer Challenge (NBC Hackathon)</a></h3>
+                            </div><!--//item--> 
+                            <div class="item">
+                                <h3 class="title"></a>💡 IBM Watson Challenge (NBC Hackathon)</a></h3>
+                            </div><!--//item-->     
+                            <div class="item">
+                                <h3 class="title"></a>💡 Expedia Travel Challenge (Launch Hackathon)</a></h3>
+                            </div><!--//item-->                    
+                            <div class="item">
+                                <h3 class="title"></a>💡 ESRI Map Challenge (Launch Hackathon)</a></h3>
+                            </div><!--//item-->       
+                            <div class="item">
+                                <h3 class="title"></a>💡 IBM Watson Challenge (DeveloperWeek Hackathon)</a></h3>
+                            </div><!--//item--> 
+                            <div class="item">
+                                <h3 class="title"></a>💡 Magnet Messaging App Challenge (DeveloperWeek Hackathon)</a></h3>
+                            </div><!--//item-->   
+                            <div class="item">
+                                <h3 class="title"></a>💡 Big Fish Games Challenge (AngelHack SF Hackathon)</a></h3>
+                            </div><!--//item-->    
+                            <div class="item">
+                                <h3 class="title"></a>💡 Mulesoft Challenge (AngelHack SF Hackathon)</a></h3>
+                            </div><!--//item-->  
+                            <div class="item">
+                                <h3 class="title"></a>💡 (2nd) Traitify Challenge (Integrate Hackathon)</a></h3>
+                            </div><!--//item--> 
+                            <div class="item">
+                                <h3 class="title"></a>💡 (3rd) Magnet Messaging App Challenge (Integrate Hackathon)</a></h3>
+                            </div><!--//item-->    
+                            <div class="item">
+                                <h3 class="title"></a>💡 Xignite Stocks Challenge (Capital One Hackathon)</a></h3>
+                            </div><!--//item-->    
+                            <div class="item">
+                                <h3 class="title"></a>💡 Twitter Challenge (Mastercard Hackathon)</a></h3>
+                            </div><!--//item-->    
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+
+                <section class="projects section">
+                    <div class="section-inner">
+                        <h2 class="heading">Freelancing Projects</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title"><a href="#">Dangle</a></h3>
+                                <p class="summary">Manage the homework, chores, and extracurricular activities of your kids with our easy to use app.</p>
+                                <p><a class="more-link" href="http://www.didyoudangle.com/" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><a href="#">Guia Food Trucks</a></h3>
+                                <p class="summary">Guia Food Trucks is a Brazilian food trucks app with 40K followers on social media that helps users to find open food trucks nearby.  </p>
+                                <p><a class="more-link" href="http://www.guiafoodtrucks.com/" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"></a>Media sharing app</a></h3>
+                            </div><!--//item--> 
+                            <div class="item">
+                                <h3 class="title"></a>Voice recording app</a></h3>
+                            </div><!--//item-->                           
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+
+                <section class="projects section">
+                    <div class="section-inner">
+                        <h2 class="heading">Speaker at</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Swift with The Best Conference</a></h3>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">SwiftMission Meetup</a></h3>
+                            </div><!--//item-->                       
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+               <section class="latest section">
+                    <div class="section-inner">
+                        <h2 class="heading">Other Projects</h2>
+                        <div class="content">    
+                            <div class="item featured text-center">
+                                <h3 class="title"><a href="mynzapp.com" target="_blank">MYNZ</a></h3>
+                                <p class="summary">MYNZ is a multi-player, augmented reality mobile game built explicitly for iPhone📱 and Apple Watch⌚️.</p>
+                                <div class="featured-image">
+                                    <a href="mynzapp.com" target="_blank">
+                                    <img class="img-responsive project-image" src="assets/images/projects/project-6.png" alt="project name" />
+                                    </a>
+                                    <div class="ribbon">
+                                        <div class="text">2 Prizes 🏆</div>
+                                        </div>
+                                    </div>
+                                    
+                                <div class="desc text-left">                                    
+                                    <p>🏆 Won Best Game prize by Big Fish Games & Best Integration by Mulesoft</p>
+
+                                </div><!--//desc-->         
+                                <a class="btn btn-cta-secondary" href="http://mynzapp.com/" target="_blank"><i class="fa fa-external-link"></i>Open</a>                 
+                            </div><!--//item-->
+                            <hr class="divider" />
+                                                 <div id="github-graph" class="github-graph"></div><!--//github-graph-->      
+
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="http://www.lend.al/" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/projects/project-7.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="http://www.lend.al/" target="_blank">Lendal</a></h3>
+                                    <p>Lendal lets you borrow what you want or need from others in your hyper-local neighborhood.</p>
+                                    <p><a class="more-link" href="http://www.lend.al/" target="_blank"><i class="fa fa-external-link"></i> Open</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://github.com/troydo42/kodeo" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/projects/project-8.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="https://github.com/troydo42/kodeo" target="_blank">Kodeo</a></h3>
+                                    <p>Get Motivated by Competing with Friends on Github Contribution. Code More Contribute Often with Style</p>
+
+                                    <p><a class="more-link" href="https://github.com/troydo42/kodeo" target="_blank"><i class="fa fa-external-link"></i> Open</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->                           
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                <section class="experience section">
+                    <div class="section-inner">
+                        <h2 class="heading">Work Experience</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Freelancer - <span class="place"><a href="#"></a></span> <span class="year">(2016)</span></h3>
+                                <p>Working as a freelancer. Available for new projects</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">iOS Developer - <span class="place" href="http://collectio.io" target="_blank">Collect</a></span> <span class="year">(2016)</span></h3>
+                                <p>Lucas worked on Video Rendering technology for 360º videos</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Web Developer - <span class="place" href="http://sfsu.edu" target="_blank">SFSU Academic Technology</a></span> <span class="year">(2016)</span></h3>
+                                <p>Lucas worked on publishing tools for students</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Co-Founder & Lead Developer - <span class="place" href="http://mynzapp.com/home" target="_blank">MYNZ</a></span> <span class="year">(2015)</span></h3>
+                                <p>MYNZ is a multi-player, augmented reality mobile game built explicitly for iPhone📱 and Apple Watch⌚️.</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Co-Founder & Lead Developer - <span class="place" href="http://www.lend.al/home" target="_blank">Lendal</a></span> <span class="year">(2014 - 2015)</span></h3>
+                                <p>Have you ever been in the middle of putting together furniture and wished you owned a power drill? Have you ever gone camping and wish you had brought a bigger tent? </p>
+                                </p>Lendal lets you borrow what you want or need from others in your hyper-local neighborhood. Borrowing from friends is always free.</p>
+                            </div><!--//item-->                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+            </div><!--//primary-->
+            <div class="secondary col-md-4 col-sm-12 col-xs-12">
+                 <aside class="info aside section">
+                    <div class="section-inner">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>San Francisco, CA</li>
+                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:hi@lucasfarah.me">hi@lucasfarah.me</a></li>
+                            </ul>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//aside-->
+                
+                <aside class="skills aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            <p class="intro">
+                                With 3 years of experience in mobile, 1 in wearables and 1 in Backend, Lucas is always looking for new challenges</p>
+                            
+                            <div class="skillset">
+                               
+                                <div class="item">
+                                    <h3 class="level-title">Swift<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to add more info...">2 years</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="80%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Objective-C<span class="level-label">1 Year</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="60%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Python<span class="level-label">1 Year</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="60%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Java<span class="level-label">1 Year</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="50%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                <div class="item">
+                                    <h3 class="level-title">PHP<span class="level-label">3 Months</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="10%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+                                
+                <aside class="education aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+                            <div class="item">                      
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> BSc Computer Science</h3>
+                                <h4 class="university">San Francisco State University <span class="year">(2016-2020)</span></h4>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> iOS Programming Course (Obj-C)</h3>
+                                <h4 class="university">Interactive Arts Institute <span class="year">(2013-2014)</span></h4>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> AP Computer Science</h3>
+                                <h4 class="university">Alameda High School <span class="year">(2014-2015)</span></h4>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> Python Course</h3>
+                                <h4 class="university">Codecademy <span class="year">(2015)</span></h4>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> Developing for the Watch </h3>
+                                <h4 class="university">WatchKit Bootcamp <span class="year">(2014)</span></h4>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> Learning Swift</h3>
+                                <h4 class="university">Swift Dev Workshop <span class="year">(2014)</span></h4>
+                            </div><!--//item-->
+
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                            
+                <aside class="languages aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Languages</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li class="item">
+                                    <span class="title"><strong>English:</strong></span>
+                                    <span class="level">Native Proficiency</span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>Portuguese:</strong></span>
+                                    <span class="level">Native Proficiency</span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>Spanish:</strong></span>
+                                    <span class="level">Limited Working Proficiency</span>
+                                </li><!--//item-->
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                
+                <aside class="medium posts section">
+                    <div class="section-inner">
+                        <h2 class="heading">Medium Posts</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><a href="https://medium.com/techspiration-ideas-making-it-happen/how-to-win-a-hackathon-experiences-from-a-mobile-developer-d26fb3461b5a#.qaj702k6c" target="_blank">How to win a Hackathon - Experiences from a Mobile Debeloper</a>
+                                <p> I could never imagine how much hackathons would impact my life.</p></li>
+                                <li><a href="https://medium.com/@lucasfarah/open-letter-to-parse-8676d817a772#.m5ccqdwmi" target="_blank">Open Letter to Parse</a>
+                                <p> Discussion about my personal experiences with Parse</p></li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                <aside class="list conferences aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Conferences</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+
+                            <li><i class="fa fa-calendar"></i> <a href="https://twitter.com/tryswiftnyc" target="_blank">TrySwift NYC</a> (San Francisco)</li>
+                            <li><i class="fa fa-calendar"></i> <a href="https://developer.apple.com/wwdc/" target="_blank">WWDC 2016</a> (San Francisco)</li>
+                            <li><i class="fa fa-calendar"></i> <a href="https://allremoteconfs.com/ios-2016" target="_blank">iOS Remote Conf</li>
+                            <li><i class="fa fa-calendar"></i> <a href="swift.withthebest.com" target="_blank">Swift with the Best</li>
+                            <li><i class="fa fa-calendar"></i> <a href="http://www-01.ibm.com/software/events/insight/" target="_blank">IBM Insight 2015</a> (Las Vegas)</li>
+                            <li><i class="fa fa-calendar"></i> <a href="https://connect.mulesoft.com/" target="_blank">MuleSoft Connect 2015</a> (San Francisco)</li>
+                            <li><i class="fa fa-calendar"></i> <a href="https://en.wikipedia.org/wiki/Macworld/iWorld" target="_blank">Macworld/iWorld 2013</a> (San Francisco)</li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                <aside class="testimonials aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Testimonials</h2>
+                        <div class="content">
+                            <div class="item">
+                                <blockquote class="quote">                                  
+                                    <p><i class="fa fa-quote-left"></i>"Lucas has worked extremely hard, equally driven as I am to see Lendal succeed. His dedication could only happen through his excellent time management skills. He has proved truly capable of being part of Lendal while keeping school his primary focus."</p>
+                                </blockquote>                
+                                <p class="source"><span class="name">Parker Kuncl</span><br /><span class="title">Co-founder at Lendal</span></p>                                                             
+                            </div><!--//item-->
+                            
+                            <p><a class="more-link" href="https://www.linkedin.com/in/lucasfarah" target="_blank"><i class="fa fa-external-link"></i>More on Linkedin</a></p> 
+                            
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+
+
+                <aside class="credits aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Credits</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><a href="http://getbootstrap.com/" target="_blank"><i class="fa fa-external-link"></i> Bootstrap</a></li>
+                                <li><a href="http://fortawesome.github.io/Font-Awesome/" target="_blank"><i class="fa fa-external-link"></i> FontAwesome</a></li>
+                                <li><a href="http://jquery.com/" target="_blank"><i class="fa fa-external-link"></i> jQuery</a></li>
+                                <li><a href="https://github.com/IonicaBizau/github-calendar" target="_blank"><i class="fa fa-external-link"></i> GitHub Calendar Plugin</a></li>
+                                
+                                <li><a href="http://caseyscarborough.com/projects/github-activity/" target="_blank"><i class="fa fa-external-link"></i> GitHub Activity Stream</a></li>
+                                
+                                <li><a href="https://github.com/sdepold/jquery-rss" target="_blank"><i class="fa fa-external-link"></i> jQuery RSS</a></li>
+                                
+                                <li>Profile image: <a href="https://www.flickr.com/photos/dotbenjamin/2577394151" target="_blank">Ben Smith</a></li>
+                                <li>iPad and iPhone mocks: <a href="https://dribbble.com/perlerar" target="_blank">Regy Perlera</a></li>
+                                
+                            </ul>
+                            
+                            <hr/>
+                            
+                             <p>This responsive portfolio template is handcrafted by UX designer <a href="https://www.linkedin.com/in/xiaoying" target="_blank">Xiaoying Riley</a> at <a href="http://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a> for developers and is <strong>FREE</strong> under the <a class="dotted-link" href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution 3.0 License</a></p>
+                             <p>We will improve or add new features to this template based on users' feedback so follow us on twitter to get notified when a new version is out!</p>
+                            <a class="btn btn-cta-secondary btn-follow" href="https://twitter.com/3rdwave_themes" target="_blank"><i class="fa fa-twitter"></i> Follow us</a>
+                            <a class="btn btn-cta-primary btn-download" href="http://themes.3rdwavemedia.com/website-templates/free-responsive-website-template-for-developers/" target="_blank"><i class="fa fa-download"></i> I want to download</a>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+              
+            </div><!--//secondary-->    
+        </div><!--//row-->
+    </div><!--//masonry-->
+    
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
+    <!-- github calendar plugin -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
+</body>
+</html> 
+
